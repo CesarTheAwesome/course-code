@@ -49,14 +49,14 @@ const locations = [
 		"buttonText": ["Buy 10 health (10 gold)", "Buy weapon (30 gold)", "Go to town square"],
 		"buttonFunction": [buyHealth, buyWeapon, goTown],
 		"text": "You enter the store."
-	}
+	},
 	{
 		name: "cave",
 		"buttonText": ["Fight slime", "Fight fanged beast", "Go to town square"],
 		"buttonFunction": [fightSlime, fightBeast, goTown],
 		"text": "You enter the cave. You see some monsters."
 	}
-]
+];
 
 // initialize buttons
 button1.onclick = goStore;
